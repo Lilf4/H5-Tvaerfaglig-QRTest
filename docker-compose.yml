@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  image-server:
+    build: .
+    container_name: image_server
+    ports:
+      - "${PORT}:5000"
+    volumes:
+      - ./images:/images
+    restart: unless-stopped
