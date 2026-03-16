@@ -1,4 +1,4 @@
-Dette er et test program, designet til at fremvise QR scanning funktionalitet i App.
+Dette er et test program, designet til at fremvise QR scanning funktionalitet i App.<br>
 For at køre dette skal du bruge Docker/docker-compose.
 
 Før du kan køre det skal du lave en ny fil der heder .env du kan også kopier .env.example og omdøb den.
